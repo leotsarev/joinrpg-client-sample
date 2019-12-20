@@ -1,0 +1,27 @@
+{
+  "name": "joinrpg-typescript-sample",
+  "version": "0.1.0",
+  "description": "Typescript sample client for joinrpg.ru",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "joinrpg",
+    "larp",
+    "rpg"
+  ],
+  "author": "Leonid Tsarev",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.0",
+    "axios": "^0.19.0",
+    "axios-logger": "^2.2.1",
+    "qs": "^6.9.1"
+  }
+}
